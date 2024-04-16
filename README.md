@@ -6,14 +6,14 @@ The nbviewer link will display the notebook containing the code. This notebook c
 
 Notebook | nbviewer | Binder | PDF
 --- | --- | --- | ---
-Oscillator|[![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/gawthrop/Oscillator24/blob/main/Oscillator.ipynb)|[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gawthrop/Oscillator24/main?filepath=Oscillator.ipynb)|[PDF](https://github.com/gawthrop/Oscillator24/blob/main/Oscillator.pdf)
+Oscillation|[![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/gawthrop/Oscillation24/blob/main/Oscillation.ipynb)|[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gawthrop/Oscillation24/main?filepath=Oscillation.ipynb)|[PDF](https://github.com/gawthrop/Oscillation24/blob/main/Oscillation.pdf)
 
 # LIST OF FILES
 
 ## Main Programs
 
-- Oscillator.ipynb *Jupyter (Python) notebook*
-- Oscillator.pdf  *printable version*
+- Oscillation.ipynb *Jupyter (Python) notebook*
+- Oscillation.pdf  *printable version*
   
 ## Bond Graph UtilitiesA
 
