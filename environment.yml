@@ -12,6 +12,6 @@ dependencies:
   - networkx
   - pip
   - pip:
-    - svgpathtools
+    - svgpathtools==1.5.0
     - datetime
     - BondGraphTools
