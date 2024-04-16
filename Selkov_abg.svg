@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2.8b -->
+<!-- CreationDate: 2023-10-27 11:18:57 -->
+<!-- Magnification: 1.05 -->
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="712pt" height="343pt"
+	viewBox="653 653 11294 5444">
+<g fill="none">
+<!-- Line -->
+<rect x="675" y="675" width="11250" height="5400" rx="105"
+	stroke="#ffd600" stroke-width="15px"/>
+<!-- Text -->
+<g transform="translate(5310,4500) rotate(-270)" >
+<text xml:space="preserve" x="0" y="0" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">Re:r1</text>
+</g><!-- Text -->
+<g transform="translate(7560,4500) rotate(-270)" >
+<text xml:space="preserve" x="0" y="0" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">Re:r2</text>
+</g><!-- Text -->
+<text xml:space="preserve" x="6525" y="1215" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">Ce:E</text>
+<!-- Text -->
+<text xml:space="preserve" x="6525" y="2340" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">0</text>
+<!-- Text -->
+<g transform="translate(7740,2250) rotate(-90)" >
+<text xml:space="preserve" x="0" y="0" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">Re:r0</text>
+</g><!-- Text -->
+<text xml:space="preserve" x="8775" y="2340" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">1</text>
+<!-- Text -->
+<text xml:space="preserve" x="3150" y="4590" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">0</text>
+<!-- Text -->
+<text xml:space="preserve" x="3150" y="3465" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">Ce:ATP</text>
+<!-- Text -->
+<text xml:space="preserve" x="9900" y="4590" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">0</text>
+<!-- Text -->
+<text xml:space="preserve" x="4275" y="4590" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">1</text>
+<!-- Text -->
+<text xml:space="preserve" x="6525" y="4590" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">0</text>
+<!-- Text -->
+<text xml:space="preserve" x="6525" y="3465" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">Ce:C</text>
+<!-- Text -->
+<text xml:space="preserve" x="8775" y="4590" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">1</text>
+<!-- Text -->
+<text xml:space="preserve" x="3150" y="5715" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">Re:rs</text>
+<!-- Text -->
+<text xml:space="preserve" x="1800" y="5715" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="end">Ce:ATP0</text>
+<!-- Text -->
+<text xml:space="preserve" x="11250" y="5715" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="start">Ce:Zf</text>
+<!-- Text -->
+<text xml:space="preserve" x="9900" y="5715" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">Re:rf</text>
+<!-- Text -->
+<text xml:space="preserve" x="11025" y="4590" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="start">Ce:P</text>
+<!-- Text -->
+<text xml:space="preserve" x="9900" y="2340" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="start">Ce:Act</text>
+<!-- Text -->
+<text xml:space="preserve" x="8775" y="1215" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">Ce:PFK</text>
+<!-- Text -->
+<text xml:space="preserve" x="8775" y="5715" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="216" text-anchor="middle">Ce:Z</text>
+<!-- Line -->
+<polyline points=" 6525,2025 6525,1350 6750,1575"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 8550,4275 6750,2475 6750,2700"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 6300,2475 4500,4275 4725,4275"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 3375,4500 4050,4500 3825,4725"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 9000,4500 9675,4500 9450,4725"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 6525,4275 6525,3600 6750,3825"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 5625,4500 6300,4500 6075,4725"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 6750,4500 7425,4500 7200,4725"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 7875,4500 8550,4500 8325,4725"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 4500,4500 5175,4500 4950,4725"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 7425,2250 6750,2250 6975,2475"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 8550,2250 7875,2250 8100,2475"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 3150,5400 3150,4725 3375,4950"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 2025,5625 2700,5625 2475,5850"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 9900,4725 9900,5400 10125,5175"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 10125,4500 10800,4500 10575,4725"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 8775,1350 8775,2025 9000,1800"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 9675,2250 9000,2250 9225,2475"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 3150,4275 3150,3600 3375,3825"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 8775,4725 8775,5400 9000,5175"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 10350,5625 11025,5625 10800,5850"
+	stroke="#000000" stroke-width="15px"/>
+</g>
+</svg>
