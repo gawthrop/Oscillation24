@@ -1,4 +1,4 @@
-# Supplementary code for "Energy-based Modelling of an Actin Filament Using Bond Graphs"
+# Supplementary code for "Analysis of Biochemical Oscillators Using Bond Graphs and Linear Control Theory."
 
 # Notebook
 
@@ -6,14 +6,14 @@ The nbviewer link will display the notebook containing the code. This notebook c
 
 Notebook | nbviewer | Binder | PDF
 --- | --- | --- | ---
-ActinRod|[![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/gawthrop/ActinRod24/blob/main/ActinRod.ipynb)|[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gawthrop/ActinRod24/main?filepath=ActinRod.ipynb)|[PDF](https://github.com/gawthrop/ActinRod24/blob/main/ActinRod.pdf)
+Oscillator|[![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/gawthrop/Oscillator24/blob/main/Oscillator.ipynb)|[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gawthrop/Oscillator24/main?filepath=Oscillator.ipynb)|[PDF](https://github.com/gawthrop/Oscillator24/blob/main/Oscillator.pdf)
 
 # LIST OF FILES
 
 ## Main Programs
 
-- ActinRod.ipynb *Jupyter (Python) notebook*
-- ActinRod.pdf  *printable version*
+- Oscillator.ipynb *Jupyter (Python) notebook*
+- Oscillator.pdf  *printable version*
   
 ## Bond Graph UtilitiesA
 
@@ -23,9 +23,7 @@ ActinRod|[![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges
 - modularBondGraph.py *Modular BondGraphs*
 
 ## Bond Graphs in Scaleable Vector Graphics (SVG) format
-- ActinRod_abg.svg 
-- ActinRodTheta_abg.svg
-- ActinRodThetaFlex_abg.svg
+
 
 ## Configuration
 - environment.yml
