@@ -10,6 +10,7 @@ dependencies:
   - lxml
   - xlrd
   - networkx
+  - scikits.odes
   - pip
   - pip:
     - svgpathtools==1.3.3
