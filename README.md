@@ -2,7 +2,8 @@
 
 # Notebook
 
-The nbviewer link will display the notebook containing the code. This notebook can be interactively run online using the Binder links.
+The nbviewer link will display the notebook containing the code. This
+notebook can be interactively run online using the Binder link in nbviewer.
 
 Notebook | nbviewer | PDF
 --- | --- | --- 
