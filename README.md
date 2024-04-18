@@ -4,10 +4,11 @@
 
 The nbviewer link will display the notebook containing the code. This notebook can be interactively run online using the Binder links.
 
-Notebook | nbviewer | Binder | PDF
+Notebook | nbviewer | PDF
 --- | --- | --- | ---
-Oscillation|[![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/gawthrop/Oscillation24/blob/main/Oscillation.ipynb)|[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gawthrop/Oscillation24/main?filepath=Oscillation.ipynb)|[PDF](https://github.com/gawthrop/Oscillation24/blob/main/Oscillation.pdf)
-Repressilator|[![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/gawthrop/Oscillation24/blob/main/Repressilator.ipynb)|[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gawthrop/Oscillation24/main?filepath=Repressilator.ipynb)|[PDF](https://github.com/gawthrop/Oscillation24/blob/main/Repressilator.pdf)
+Oscillation|[![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/gawthrop/Oscillation24/blob/main/Oscillation.ipynb)|[PDF](https://github.com/gawthrop/Oscillation24/blob/main/Oscillation.pdf)
+Repressilator|[![NBViewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/gawthrop/Oscillation24/blob/main/Repressilator.ipynb)|[PDF](https://github.com/gawthrop/Oscillation24/blob/main/Repressilator.pdf)
+
 # LIST OF FILES
 
 ## Main Programs
