@@ -1,4 +1,4 @@
-# Supplementary code for "Analysis of Biochemical Oscillators Using Bond Graphs and Linear Control Theory."
+# Supplementary code for "Energy-based Analysis of Biochemical Oscillators Using Bond Graphs and Linear Control Theory."
 
 # Notebook
 
