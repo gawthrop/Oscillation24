@@ -692,30 +692,42 @@ def sprintl(s,name="N",align=True,transpose=False):
         
     return str
 
-def sprintvl(s,alpha=1,align=True):
+def sprintvl(s,alpha=1,align=True,split=10):
     """LaTeX-printable string of flow equations
     
     Parameters:
     s: output from stoich
     align: bracket with LaTeX align environment
     """
-    
+
+    env = 'align'
+    be = '\\begin{'+env+'}\n'
+    ee = '\\end{'+env+'}\n'
+    dx = be
+
     if align:
-        str = "\\begin{align}\n"
+        str = be
     else:
         str = ""
 
     v,v0 = flow(s,alpha=alpha)
     V = vec(s["reaction"],"v")
+    ii = 0
     for i,v_i in enumerate(v):
         str += sympy.latex(V[i])
         str += " &= "
         str += sympy.latex(v_i,mat_delim="(")
-        str += "\\\\\n"
+        ii += 1
+        if ii==split:
+            str += '\n' + ee + be
+            ii = 0
+        else:
+            str += "\\\\\n"
 
     str = str[:-3]
     if align:
-        str = str + "\n\\end{align}\n"
+        str = str + '\n' + ee
+        
     return str
 
 def sprintp(s,printReac=False,chemformula=False,removeSingle=False):
@@ -787,11 +799,87 @@ def prodStoichName(stoich,name):
             if stoich[i,j] != 0:
                 if (stoich[i,j]!=1):
                     prod += str(stoich[i,j])+" "
-                prod += spec+" + "    
+                prod += spec+" + "
+        prod = prod.replace("+ -","- ")
+        prod = prod.replace("- 1","- ")
+        prod = prod.replace("-1","- ")
         prods.append(prod[:-3])
     return prods
 
+def sprintdxl(s,sc,split=10):
+    """LaTeX-printable string of state equations
+    
+    Parameters:
+    s: output from stoich
+    sc: s with chemostats
+    split: split at this number of equations
+    """
 
+    env = 'align'
+    be = '\\begin{'+env+'}\n'
+    ee = '\\end{'+env+'}\n'
+    dx = be
+    
+    rname = s['reaction']
+    sname = s['species']
+    chemostats = sc['chemostats']
+    nState = len(sname)-len(chemostats)
+    
+    vname = []
+    for name in rname:
+        name = name.replace('_','')
+        vname.append('v_{'+name+'}')
+
+    RHS = prodStoichName(s['N'],vname)
+    ii = 0
+    j = 0
+    for i,spec in enumerate(sname):
+        Spec = spec.replace('_','')
+        if not spec in chemostats:
+            j += 1
+            ii += 1
+            dx += '\\dot{x}_{'+Spec+'} &= ' + RHS[i]
+            if (ii==split) and (j<nState):
+                dx += '\n'+ee+be
+                ii = 0
+            else:
+                dx += '\\\\\n'
+
+    return dx[:-3]+'\n'+ee
+    
+def sprintparl(parameter,split=10):
+    """LaTeX-printable string of parameters
+    
+    Parameters:
+    parameters: system parameters
+    split: split at this number of equations
+    """
+
+    env = 'align'
+    be = '\\begin{'+env+'}\n'
+    ee = '\\end{'+env+'}\n'
+    str = be
+    nPar = len(parameter)
+
+    ii = 0
+    for i,par in enumerate(parameter):
+        #Spec = spec.replace('_','')
+        ii += 1
+        param = parameter[par]
+        
+        par = par.replace('_','')
+        par = par.replace('K','K_{',1)
+        par = par.replace('kappa','\\kappa_{',1)
+        par += '}'
+        str += f'{par} &= {param:.4g}'
+        if (ii==split) and (i<nPar-1):
+            str += '\n'+ee+be
+            ii = 0
+        else:
+            str += '\\\\\n'
+
+    return str[:-3]+'\n'+ee
+    
 def reacSym(reac,s,chemformula=False):
     """ Reaction symbol """
 
@@ -885,7 +973,8 @@ def sprintrl(s,align=True,chemformula=False,split=10,reaction=[],all=False,Phi=N
         #for i in np.arange(0,n):
         for i,Spec in enumerate(s["species"]):
             #spec = s["species"][i].replace('__','.')
-            spec = Spec.replace('__','.')
+            #spec = Spec.replace('__','.')
+            spec = Spec.replace('_','')
             if Nf[i,j]>0:
                 if (Nf[i,j]!=1):
                     substrate += str(Nf[i,j])+" "
@@ -895,7 +984,8 @@ def sprintrl(s,align=True,chemformula=False,split=10,reaction=[],all=False,Phi=N
                     product += str(Nr[i,j])+" "
                 product += spec+" + "
 
-        reac = s["reaction"][j].replace('__','.')
+        #reac = s["reaction"][j].replace('__','.')
+        reac = s["reaction"][j].replace('_','')
         eq = reacSym(reac,s,chemformula) 
         reacStr += prefix + substrate[:-2] +  eq
         if chemformula:
@@ -1905,7 +1995,7 @@ def sim(s,sc=None,sf=None,X0=None,t=None,linear=False,V0=None,alpha=1,parameter=
                     if chemo in X_chemo.keys(): 
                         U[i] = eval(X_chemo[chemo])
                                   
-            t_out, yy ,xx = con.forced_response(sys,t,U=U)
+            t_out, yy ,xx = con.forced_response(sys,T=t,U=U,return_x=True)
             #x = (xx + L_xX@X0).T
             x = xx.T + (L_xX@X0).T
     else:
